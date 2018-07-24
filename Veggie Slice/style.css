@@ -1,0 +1,157 @@
+div.inline {
+    float: left;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+#container {
+    background:url("photo/veggybackground.jpg") no-repeat center center fixed;
+    padding: 15px;
+    background-size: 100%;
+    position: relative;
+}
+
+#gamename {
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Galada', cursive;
+    color: cornflowerblue;
+    text-shadow: 2px 2px blue;
+    
+}
+
+#gameframe {
+    height: 400px;
+    width: 750px;
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: solid 5px grey;
+    border-radius: 18px;
+    background: url("photo/fruit.jpg");
+    margin-top: -35px;
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+    cursor: url("photo/knife.png"), default;
+}
+
+#score {
+    color: cornsilk;
+    margin-top: 10px; 
+    padding: 10px;
+    padding-left: 310px;
+    font-family: 'Wendy One', sans-serif;
+    font-size: 1.3em;
+    width: 100px;
+    position: absolute;
+    top: -10px;
+    left: 10px;
+}
+
+#timeleft {
+/*    background: linear-gradient(#FF8C00,#FFA07A);*/
+    width: 200px;
+    height: 40px;
+    padding: 6px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Wendy One', sans-serif;
+    margin: 10px;
+    color: cornsilk;
+    display: inline;
+    padding-left: 60px;
+    position: absolute;
+    top: 16px;
+    left: 450px;
+}
+
+#trialleft {
+    background-color: cornsilk;
+    width: 110px;
+    height: 30px;
+    margin: -54px 10px 10px 70px;
+    border: solid 5px cornsilk;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    top: 78px;
+   
+}
+
+#instruction {
+    background: linear-gradient(#FFA07A,#FF8C00);
+    height: 50px;
+    width: 750px;
+    margin: 3px auto;
+    border-radius: 10px;
+    padding: 5px;
+    border: solid 5px grey;
+    box-shadow: 3px 3px 7px blue;
+}
+
+#instruction p {
+    font-size: 1.3em;
+    line-height: 5px;
+    font-family: 'Wendy One', sans-serif;
+}
+
+ #start {
+    background-color: greenyellow;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    box-shadow: 3px 3px 7px green;
+    -moz-box-shadow: 3px 3px 7px green;
+    -webkit-box-shadow: 3px 3px 7px green;
+    margin: 15px auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    font-family: 'Wendy One', sans-serif;
+    color: deeppink;
+    cursor: pointer;
+    position: relative;
+}
+
+#start:hover {
+    background-color: deepskyblue;
+    color: orange;
+}
+
+#start:active {
+    top: 3px;
+    box-shadow: 0 0 black;
+}
+
+.life {
+    width: 30px;
+    height: 26px;
+    padding: 0 2px;
+}
+
+.veg {
+    display: none;
+    position: absolute;
+}
+
+#gameover {
+    height: 190px;
+    width: 500px;
+    background: linear-gradient(#FF0000, #FFA07A);
+    margin: 90px auto;
+    padding-top: 1px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    text-align: center;
+    color: cornsilk;
+    font-size: 2.5em;
+    top: 50px;
+    font-family: 'Wendy One', sans-serif; 
+    display: none;
+}
+
+#veg1:hover {
+    cursor: url("photo/knife.png") 0 0, auto;
+}

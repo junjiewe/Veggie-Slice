@@ -1,0 +1,42 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Vegetable Slicer</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Wendy+One" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <div id="gamename">
+                <h1>Hate veggies? Slice it then.</h1>
+            </div>
+            <div id="gameframe">
+                <div id="vegContainer" class="inline">
+                    <img id="veg1" class="veg">
+                </div>
+                
+                <div id="trialleft" class="inline"></div>
+                
+                <div id="score" class="inline">
+                    <p>Score : <span id="scoreValue">0</span></p>
+                </div>
+                
+                <div id="gameover"></div>
+            </div>
+            <div id="instruction">
+                <p>Each veggie is worth one point, click on it to slice it.</p>
+            </div>
+            <div id="start">
+                Start
+            </div>
+        </div>
+        <audio id="sound">
+            <source src="audio/kungFu.mp3">
+            <source src="audio/kungFu.ogg">
+        </audio>
+        <script   type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="game.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    </body>
+</html>
